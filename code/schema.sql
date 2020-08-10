@@ -1,3 +1,6 @@
+-- Schema Queries
+-- Aaron Wollman
+
 Drop Table If Exists department_managers;
 Drop Table If Exists department_employees;
 Drop Table If Exists salaries;

@@ -1,3 +1,6 @@
+-- Analysis Queries
+-- Aaron Wollman
+
 -- List the following details of each employee: 
 -- employee number, last name, first name, sex, and salary.
 Select e.emp_no, e.last_name, e.first_name, s.salary
