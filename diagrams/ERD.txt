@@ -1,0 +1,37 @@
+# Aaron Wollman
+# Paste this into quickdatabasediagrams.com
+
+Departments
+-
+dept_no VARCHAR(4) PK
+dept_name VARCHAR(20)
+
+Department_Employees
+-
+emp_no INT PK FK -< Employees.emp_no
+dept_no VARCHAR(4) PK FK -< Departments.dept_no
+
+Department_Managers
+-
+dept_no VARCHAR(4) PK FK -< Departments.dept_no
+emp_no INT PK FK -< Employees.emp_no
+
+Employees
+-
+emp_no INT PK
+emp_title VARCHAR(5) FK >- Titles.title_id
+birth_date VARCHAR(10)
+first_name VARCHAR(25)
+last_name VARCHAR(25)
+sex VARCHAR(1)
+hire_date VARCHAR(10)
+
+Salary 
+-
+emp_no INT PK FK - Employees.emp_no
+salary INT
+
+Titles
+-
+title_id VARCHAR(5) PK
+title VARCHAR(25)
