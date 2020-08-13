@@ -1,3 +1,4 @@
+# Code
 ## How to Run
 ### Schema.sql
 <ol>
@@ -59,7 +60,7 @@
 	</li>
 </ol>
 
-## Analysis.sql
+### Analysis.sql
 <ol>
 	<li>
 		Make sure to run the instructions under Schema.sql first to populate the tables in your database.
@@ -70,7 +71,7 @@
 	</li>
 </ol>
 
-## Analysis_Bonus.ipynb
+### Analysis_Bonus.ipynb
 <ol>
 	<li>
 		Make sure to run the instructions under Schema.sql first to populate the tables in your database.
@@ -79,8 +80,8 @@
 	    In the code folder, create a file called config.py. In this file, define two variables:
 	    <ul>
 	      <li><i>database</i> will be your database that contains your tables.</li>
-	      <li><i>username</i> will be your username for the database.</li>
-	      <li><i>password</i> will be your password for the database.</li>
+	      <li><i>username</i> will be your PostgresSQL username.</li>
+	      <li><i>password</i> will be your PostgresSQL password.</li>
 	    </ul>
 	  </li>
 	  <li>In the terminal, initialize an Anaconda environment using "source activate <i>{your environment}</i>".</li>
